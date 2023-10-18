@@ -1,0 +1,178 @@
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-top: 120px;
+}
+
+.cinema-label {
+    border-left: 10px solid #FC0013;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.ticket-info {
+    background-color: #050505;
+    border-color: #FC0013;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.form-select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FC0013;
+    border-radius: 0px;
+    color: #FFF;
+    font-size: 22px;
+}
+
+.form-select option {
+    background-color: #101010;
+}
+
+.form-check-input {
+    background-color: transparent;
+    border: 1px solid #FC0013;
+}
+
+.form-check-input:checked {
+    background-color: #FC0013;
+    border: 1px solid #FC0013;
+}
+
+.form-check-input:focus {
+    border: 1px solid #FC0013;
+}
+
+.form-check-label, p, .list-group-item {
+    user-select: none;
+}
+
+.counter {
+    background-color: transparent;
+}
+
+.counter button {
+    border-color: #FC0013;
+    color: #FC0013;
+}
+
+.counter p {
+    margin: auto 20px;
+}
+
+.screen {
+    background-color: #fff;
+    height: 50px;
+    width: 90%;
+    font-size: 24px;
+    margin: auto;
+    transform: perspective(10px) rotateX(-1deg);
+    box-shadow: 0 3px 10px rgb(255 255 255 / 70%);
+}
+
+.seat {
+    background-color: #FFF;
+    color: black;
+    height: 30px;
+    width: 35px;
+    margin: 4px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding-top: 5px;
+    user-select: none;
+}
+
+.seat:nth-of-type(4) {
+    margin-left: 30px;
+}
+
+.seat:nth-of-type(8) {
+    margin-right: 30px;
+}
+
+.seat:not(.seat-occupied):hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.seat-selected {
+    background-color: #FC0013;
+    color: white
+}
+
+.seat-occupied {
+    background-color: #565656;
+}
+
+.legend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 20px;
+    font-size: 20px;
+}
+
+.legend .seat:hover {
+    transform: scale(1);
+    cursor: default;
+}
+
+.legend p {
+    margin: auto 5px;
+}
+
+.seat-info {
+    background-color: #050505;
+    border-color: #FC0013;
+    font-size: 22px;
+    color: #FFF;
+}
+
+.card-header {
+    border-bottom: 1px solid #FC0013;
+}
+
+.list-group {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.list-group-item, .list-group-item:last-child, .list-group-item:disabled {
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FC0013;
+    border-radius: 0px;
+    margin-right: 10px;
+}
+
+.list-group::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #050505;
+}
+
+.list-group::-webkit-scrollbar {
+    width: 12px;
+    background-color: #050505;
+}
+
+.list-group::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    background-color: #FC0013;
+}
+
+#btnProceed {
+    background-color: #FC0013;
+    color: white;
+}

@@ -1,0 +1,332 @@
+a {
+  text-decoration: none;
+}
+
+.red-font {
+  color: #FC0013;
+}
+
+section {
+  margin-top: 120px;
+}
+
+.cinema-label {
+  border-left: 10px solid #FC0013;
+  padding-left: 10px;
+  font-size: 40px;
+}
+
+.dashboard-nav {
+  background-color: #050505;
+  border-color: #FC0013;
+  font-size: 26px;
+  color: #FFF;
+}
+
+.button-nav {
+  background-color: #050505;
+  color: #FFF;
+}
+
+.button-nav:hover {
+  background-color: rgba(255, 255, 255, .15);
+  color: #FFF;
+}
+
+.button-nav.active {
+  background-color: #FC0013;
+  color: #FFF;
+  border-color: #FC0013;
+}
+
+.button-nav.disabled {
+  background-color: #050505;
+  color: rgba(255, 255, 255, .15);
+  ;
+}
+
+.page-title {
+  font-size: 32px;
+}
+
+.dashboard-icon {
+  color: #FC0013;
+  font-size: 30px;
+  margin-right: 10px;
+  padding-bottom: 12px;
+}
+
+.profile-header {
+  font-size: 30px;
+}
+
+.error-display {
+  font-family: Montserrat;
+  font-size: 15px;
+}
+
+.btnEdit {
+  background-color: #6c757d;
+  color: #FFF;
+  font-size: 24px;
+  padding: 0 25px;
+}
+
+.btnEdit:hover {
+  background-color: #565e64;
+  color: #FFF;
+}
+
+.btnSave {
+  background-color: #FC0013;
+  color: #FFF;
+  font-size: 24px;
+  padding: 0 25px;
+}
+
+.btnSave:hover {
+  background-color: #B6000F;
+  color: #FFF;
+}
+
+form label {
+  font-size: 22px;
+}
+
+.form-control {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: bolder;
+}
+
+/* Movies */
+
+form label {
+  user-select: none;
+}
+
+.form-check-input {
+  background-color: transparent;
+  border: 1px solid #FFF;
+}
+
+.form-check-input:checked {
+  background-color: #FC0013;
+  border: 1px solid #FC0013;
+}
+
+.form-check-input:focus {
+  border: 1px solid #FFF;
+}
+
+.check-all {
+  margin: 8px 10px 10px 0px;
+}
+
+.button-crud {
+  background-color: #050505;
+  border-color: #FC0013;
+  color: #FC0013;
+}
+
+.button-crud:hover {
+  background-color: #FC0013;
+  color: #FFF;
+}
+
+.button-crud i {
+  font-size: 20px;
+}
+
+.crud-disabled {
+  border-color: #FC001380;
+  color: #FC001380;
+}
+
+.crud-disabled:hover {
+  background-color: #050505;
+  color: #FC001380;
+}
+
+.table {
+  color: #FFF;
+}
+
+thead {
+  background-color: #FC0013;
+}
+
+th {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+tbody {
+  font-family: Montserrat;
+  background-color: #212529;
+}
+
+tr {
+  border-color: #050505;
+}
+
+.table-active {
+  background-color: rgba(255, 255, 255, .15);
+  color: #FFF;
+}
+
+.table-hover>tbody>tr:hover {
+  color: #FFF;
+}
+
+td.email {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.card-img, .card-img-top {
+  object-fit: cover;
+  aspect-ratio: 2/3;
+}
+
+/* Manage Movies */
+
+.btnCancel-movie {
+  background-color: #6c757d;
+  color: #FFF;
+  font-size: 24px;
+  padding: 0 25px;
+}
+
+.btnCancel-movie:hover {
+  background-color: #565e64;
+  color: #FFF;
+}
+
+.btnAdd-movie {
+  background-color: #FC0013;
+  color: #FFF;
+  font-size: 24px;
+  padding: 0 25px;
+}
+
+.btnAdd-movie:hover {
+  background-color: #B6000F;
+  color: #FFF;
+}
+
+.form-select {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.form-select option {
+  background-color: #101010;
+  color: #FFF;
+  font-size: 18px;
+}
+
+/* Create Account */
+
+.btnCreate-account {
+  background-color: #FC0013;
+  color: #FFF;
+  font-size: 24px;
+  padding: 0 25px;
+}
+
+.btnCreate-account:hover {
+  background-color: #B6000F;
+  color: #FFF;
+}
+
+.btn-check:checked+.btnType {
+  color: #FFF;
+  background-color: #FC0013;
+  border: 1px solid #FC0013
+}
+
+.btnType {
+  font-size: 20px;
+  color: #FC0013;
+  background-color: #050505;
+  border: 1px solid #FC0013;
+}
+
+.btnType:hover {
+  color: #FFF;
+}
+
+/* Manage Schedule */
+
+.view-room {
+  font-size: 22px;
+}
+
+.btnCancel-room {
+  background-color: #6c757d;
+  color: #FFF;
+  font-size: 24px;
+  padding: 0 25px;
+}
+
+.btnCancel-room:hover {
+  background-color: #565e64;
+  color: #FFF;
+}
+
+.btnSave-room {
+  background-color: #FC0013;
+  color: #FFF;
+  font-size: 24px;
+  padding: 0 25px;
+}
+
+.btnSave-room:hover {
+  background-color: #B6000F;
+  color: #FFF;
+}
+
+/* Manage Schedule */
+
+.btnClear-seats {
+  background-color: #FC0013;
+  color: #FFF;
+  font-size: 20px;
+  padding: 0 25px;
+}
+
+.btnClear-seats:hover {
+  background-color: #B6000F;
+  color: #FFF;
+}
+
+/* Manage Transactions */
+.transaction-details {
+  background-color: #050505;
+  border: 1px solid #FC0013;
+}
+
+.transaction-details .card-footer {
+  border-top: 1px solid #FC0013;
+}
+.transaction-details p {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.transaction-details .label {
+  width: 50%;
+  color: #FC0013;
+}
+.transaction-details .label-value {
+  text-align: end;
+}

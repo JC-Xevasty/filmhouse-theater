@@ -1,0 +1,128 @@
+a {
+    text-decoration: none;
+}
+
+#login:hover{
+    color: #f9fafb;
+    background-color: #000;
+    border-color: #f9fafb;
+}
+
+.red-font {
+    color: #FC0013;
+  }
+
+.h-showing {
+    font-size: 100px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.date-now {
+    font-size: 26px;
+    color: #FC0013;
+}
+
+.cinema-label {
+    border-left: 10px solid #FC0013;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.room-number {
+    font-size: 40px;
+    background-color: #FC0013;
+    border-radius: 20px;
+    padding: 10px;
+    top: -30px;
+    left: -30px;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.card .card-body{
+    background-color: #111;
+}
+
+.movie-title {
+    height: 90px;
+}
+
+.card-title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+h5.card-title {
+    font-size: 30px;
+}
+
+.schedule{
+    display: flex;
+    height: 210px;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule ul {
+    margin-bottom: 0;
+    font-size: 28px;
+}
+
+.colPRT {
+    font-size: 35px;
+}
+
+.lblRating {
+    font-size: 30px;
+    padding: 1px 30px 0;
+    border-radius: 15px;
+}
+
+.btnTickets {
+    font-size: 30px;
+    padding: 0 25px;
+    margin-top: 10px;
+    color: #FC0013;
+    border-color: #FC0013;
+}
+
+.btnTickets:hover {
+    color: #FFF;
+    border-color: #FC0013;
+    background-color: #FC0013;
+}
+
+.card-img, .card-img-top {
+    object-fit: cover;
+    aspect-ratio: 2/3;
+}
+
+.modal-header {
+    background-color: #FC0013;
+    border-bottom: 1px solid #050505;
+}
+
+.modal-title {
+    font-size: 30px;
+}
+
+.modal-body, .modalLogin {
+    font-size: 22px;
+    background-color: #101010;
+    color: #FFF;
+}
+
+.modal-body input {
+    font-family: 'Montserrat';
+}
+
+.btnLoginModal {
+    background-color: #FC0013;
+}

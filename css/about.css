@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+
+.red-font {
+    color: #FC0013;
+}
+
+section {
+    margin-top: 120px;
+}
+
+.about-label {
+    border-left: 10px solid #FC0013;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.filmhouse-label {
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.about {
+    font-size: 16px;
+    color: #FFF;
+    font-family: Montserrat;
+}
+
+.list {
+    margin-left: 20px;
+}

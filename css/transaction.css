@@ -1,0 +1,176 @@
+section {
+	margin-top: 120px;
+}
+
+.btnBack {
+	font-size: 22px;
+	padding: 0 25px;
+	margin-top: 10px;
+	color: #FC0013;
+	border-color: #FC0013;
+}
+
+.btnBack:hover {
+	color: #FFF;
+}
+
+.btnCheckout {
+	font-size: 22px;
+	padding: 0 25px;
+	margin-top: 10px;
+	color: #FC0013;
+	border-color: #FC0013;
+}
+
+.btnCheckout:hover {
+	color: #FFF;
+}
+
+.btnCheckout.complete {
+	color: #FFF;
+	background-color: #FC0013;
+	border-color: #FC0013;
+}
+
+.note {
+	background-color: #FC0013;
+	color: #FFF;
+	border: 1px solid #FC0013;
+	font-size: 24px;
+}
+
+.labels {
+	color: #FC0013;
+}
+
+.card {
+	background-color: transparent;
+	border: 1px solid #FC0013;
+}
+
+.card-header {
+	border-bottom: 1px solid #FC0013;
+}
+
+.list-group-item {
+	color: #FFF;
+	background-color: transparent;
+	border: none;
+}
+
+.card-footer {
+	background-color: #FC0013;
+	color: #FFF;
+}
+
+.paymethod {
+	font-size: 22px;
+}
+
+.btn-check:checked+.btnMethod {
+	color: #FFF;
+	background-color: #FC0013;
+	border: 1px solid #FC0013
+}
+
+.btnMethod {
+	color: #FC0013;
+	background-color: #050505;
+	border: 1px solid #FC0013;
+}
+
+.btnMethod:hover {
+	color: #FFF;
+}
+
+.btnCompute, .btnCardCheckout {
+	font-size: 22px;
+	color: #FC0013;
+	border-color: #FC0013;
+}
+
+.btnCompute:hover, .btnCardCheckout:hover {
+	color: #FFF;
+	background-color: #FC0013;
+}
+
+.form-control {
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: bolder;
+}
+
+.transaction-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	font-size: 22px;
+}
+
+.summary-container {
+	position: relative;
+	transition: all 0.6s ease-in-out;
+}
+
+.payment-container {
+	background-color: #050505;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	transition: all 0.4s ease-in-out;
+	width: 100%;
+	transform: translateX(100%);
+}
+
+.transaction-container.checkout .summary-container {
+	opacity: 0;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.6s;
+}
+
+.transaction-container.checkout .payment-container {
+	transform: translateX(0%);
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.paymethod-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.cash-container {
+	position: relative;
+	transition: all 0.3s ease-in-out;
+}
+
+.card-container {
+	position: absolute;
+	top: 0;
+	transition: all 0.3s ease-in-out;
+	width: 100%;
+	transform: translateX(100%);
+}
+
+.paymethod-container.method-check .cash-container {
+	transform: translateX(-100%);
+}
+
+.paymethod-container.method-check .card-container {
+	transform: translateX(0%);
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}

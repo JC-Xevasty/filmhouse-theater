@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.eot');
+    src: url('../fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeue-Regular.woff2') format('woff2'),
+        url('../fonts/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Bebas Neue';
+    background-color: #050505;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.btnLogin, .btnUser {
+    background-color: #FC0013;
+    color: #fff;
+}
+
+.btnLogin:hover, .btnUser:hover {
+    color: #f9fafb;
+    background-color: #212529;
+    border-color: #f9fafb;
+}
+
+#lblUser {
+    font-family: Montserrat;
+}
+
+.accountDropdown{
+    font-size: 20px;
+}
+
+.dropdown-menu-dark .dropdown-item:active {
+    background-color: #FC0013;
+}
+
+.body-footer {
+    border-top: 1px solid #FC0013;
+    font-size: 20px;
+    color: #FFF;
+}
